@@ -6,7 +6,7 @@ class complex:
     def __add__(self,other):
         return self.real + other.real , self.imag + other.imag
     def display(self):
-        print(self.real ,"+", self.imag,"j")
+        print(self.real , "+" , self.imag,"j")
     
 obj = complex(5,8)
 obj2= complex(2,3)
