@@ -7,7 +7,7 @@ for i in range(n-1):
     for f in range(i+1):
         print("*",end=" ")  
     print()
-for i in range(n):
+for  i in range(n):
     for k in range(i+1):   # 2nd line space starting 
         print(" ",end=" ")  
     for j in range(n-i):
